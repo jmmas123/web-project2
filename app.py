@@ -8,6 +8,9 @@ def home():
     return render_template("index.htm")
 
 
+# Extensión en el url para más htmls
+
+
 @app.route("/about")
 def about():
     return render_template("about.htm")
